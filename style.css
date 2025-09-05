@@ -15,6 +15,23 @@ header {
   position: fixed;
   width: 100vw;
   z-index: 1;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.page-link {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.page-link:hover {
+  text-decoration: underline;
 }
 
 /* Main Content Styling */
@@ -31,9 +48,9 @@ header {
 
 .cta-container {
   background-color: rgba(255, 255, 255, 0.9);
-  height: 100px;
-  width: 30%;
-  height: 250px;
+  width: 80%;
+  max-width: 400px;
+  height: 25%;
   position: absolute;
   bottom: 10%;
   left: 10%;
