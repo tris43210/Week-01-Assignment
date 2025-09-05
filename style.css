@@ -5,10 +5,16 @@
   font-family: sans-serif;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 /*
 
 /* header Content Styling */
+
+.company-name {
+  color: white;
+  text-decoration: none;
+}
 
 header {
   background-color: rgb(255, 99, 71, 0.9);
@@ -74,8 +80,8 @@ header {
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   padding: 20px;
-  gap: 20px;
 }
 
 .cta-button {
@@ -87,9 +93,6 @@ header {
   font-size: 1rem;
   font-weight: bold;
   text-transform: uppercase;
-  position: absolute;
-  bottom: 10%;
-  max-height: 60px;
 }
 
 .cta-container > h2 {
@@ -110,6 +113,8 @@ header {
 footer {
   background-color: rgb(255, 99, 71, 0.9);
   text-align: center;
+  color: white;
+  padding: 20px;
 }
 
 .fa-brands {

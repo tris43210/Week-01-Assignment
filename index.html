@@ -16,16 +16,19 @@
   </head>
   <body>
     <header>
-      <h1>TomatoTime</h1>
+      <a href="#top" class="company-name">
+        <h1>TomatoTime</h1>
+      </a>
       <nav class="nav-container">
-        <a href="" class="page-link">Home</a>
-        <a href="" class="page-link">About</a>
+        <a href="#top" class="page-link">Home</a>
         <a href="#tomatoes" class="page-link">Tomatos</a>
         <a href="#timers" class="page-link">Timers</a>
         <a href="#tote-bags" class="page-link">Tote Bags</a>
+        <a href="#social-media" class="page-link">Follow Us</a>
       </nav>
     </header>
     <main>
+      <span id="top"></span>
       <div class="feat-img tomatos" id="tomatoes">
         <div class="cta-container">
           <h2>Recent Fruits:</h2>
@@ -33,14 +36,27 @@
           <button class="cta-button">Buy From Us</button>
         </div>
       </div>
-      <div class="feat-img timer-img" id="timers"></div>
-      <div class="feat-img tote-bagBG" id="tote-bags"></div>
+      <div class="feat-img timer-img" id="timers">
+        <div class="cta-container">
+          <h2>Buy a Timer!</h2>
+          <h1>Timers are ticking!</h1>
+          <button class="cta-button">Tick Tock</button>
+        </div>
+      </div>
+      <div class="feat-img tote-bagBG" id="tote-bags">
+        <div class="cta-container">
+          <h1>Tote Bags Too!</h1>
+          <button class="cta-button">Find out More</button>
+        </div>
+      </div>
     </main>
     <footer>
       <em>TomatoTime 2025</em>
-      <div class="social-container">
+      <div class="social-container" id="social-media">
         <text>Follow Us:</text>
-        <a href="" target="blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.facebook.com/" target="blank"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
       </div>
     </footer>
   </body>
