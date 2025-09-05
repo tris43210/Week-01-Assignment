@@ -75,18 +75,34 @@ header {
   display: flex;
   flex-direction: column;
   padding: 20px;
+  gap: 20px;
 }
 
 .cta-button {
   width: 80%;
-  border-radius: 1rem;
-  height: 20%;
+  border-radius: 0.5rem;
+  height: 25%;
   background-color: transparent;
-  margin-top: 20px;
+  border-width: 1px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 10%;
+  max-height: 60px;
+}
+
+.cta-container > h2 {
+  font-size: 1.3rem;
+}
+
+.cta-container > h1 {
+  font-size: 1.7rem;
 }
 
 .cta-button:hover {
   background-color: tomato;
+  width: 82%;
 }
 
 /* Footer Content Styling */
@@ -97,5 +113,5 @@ footer {
 }
 
 .fa-brands {
-  color: black;
+  color: white;
 }
